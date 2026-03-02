@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+env:
+  NEXT_PUBLIC_SITE_URL: http://localhost:3000
+
+jobs:
+  eslint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Configure environment
+        uses: ./.github/actions/setup
+
+      - name: Run ESLint
+        run: pnpm lint
+
+  types:
+    name: TypeScript
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Configure environment
+        uses: ./.github/actions/setup
+
+      - name: Generate Next.js route types
+        run: pnpm typegen
+
+      - name: Run typecheck
+        run: pnpm typecheck
+
+  prettier:
+    name: Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Configure environment
+        uses: ./.github/actions/setup
+
+      - name: Run Prettier
+        run: pnpm format:check
+
+  knip:
+    name: Knip
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Configure environment
+        uses: ./.github/actions/setup
+
+      - name: Run Knip
+        run: pnpm knip
