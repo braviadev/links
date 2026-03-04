@@ -36,5 +36,5 @@ pnpm dev
 ---
 
 <p align="center">
-Made with ❤️ in Hong Kong
+Made with Passion and Love from Nigeria
 </p>
