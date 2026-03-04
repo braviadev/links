@@ -12,7 +12,7 @@ Follow these steps to run the project locally on your machine:
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/nelsonlaidev/links.git
+git clone https://github.com/braviadev/links.git
 ```
 
 2. Navigate to the project directory.
