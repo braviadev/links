@@ -36,13 +36,13 @@ importers:
         specifier: 4.2.1
         version: 4.2.1
     devDependencies:
-      '@nelsonlaidev/eslint-config':
+      '@braviadev/eslint-config':
         specifier: 2.4.5
         version: 2.4.5(@typescript-eslint/utils@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(tailwindcss@4.1.18)(typescript@5.9.3)
-      '@nelsonlaidev/prettier-config':
+      '@braviadev/prettier-config':
         specifier: 0.1.1
         version: 0.1.1(prettier-plugin-packagejson@2.5.20(prettier@3.7.4))(prettier@3.7.4)
-      '@nelsonlaidev/typescript-config':
+      '@braviadev/typescript-config':
         specifier: 1.1.1
         version: 1.1.1
       '@tailwindcss/postcss':
@@ -442,18 +442,18 @@ packages:
   '@napi-rs/wasm-runtime@1.1.0':
     resolution: {integrity: sha512-Fq6DJW+Bb5jaWE69/qOE0D1TUN9+6uWhCeZpdnSBk14pjLcCWR7Q8n49PTSPHazM37JqrsdpEthXy2xn6jWWiA==}
 
-  '@nelsonlaidev/eslint-config@2.4.5':
+  '@braviadev/eslint-config@2.4.5':
     resolution: {integrity: sha512-Rh3cW3KP9RW77ZumjygyG+zkT5YrzwFqPWEje7S8PP7rVdCdAKAeBTFpHc6/TexoXdGgT6wMBTPI6PqqxX5eiA==}
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@nelsonlaidev/prettier-config@0.1.1':
+  '@braviadev/prettier-config@0.1.1':
     resolution: {integrity: sha512-1j7CJ0LllNwKljS/xKovgXJR5fb2aZIJ6/1FGW+cBjCnBcIc0UM3h4Jl7vDaucpk+Q4BeRgPapnq7wr0zMAX6g==}
     peerDependencies:
       prettier: '>=3.6.0'
       prettier-plugin-packagejson: '>=2.5.0'
 
-  '@nelsonlaidev/typescript-config@1.1.1':
+  '@braviadev/typescript-config@1.1.1':
     resolution: {integrity: sha512-VNae2m0v7Mzt2B+l8ws2CnwYwy4BdLXpvrsJWHS6g9VfxfkTIc4gUgNGl2+5OhbDIFXKUwUIEMv89VucLF6wYA==}
 
   '@next/env@16.1.1':
@@ -2847,7 +2847,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@nelsonlaidev/eslint-config@2.4.5(@typescript-eslint/utils@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(tailwindcss@4.1.18)(typescript@5.9.3)':
+  '@braviadev/eslint-config@2.4.5(@typescript-eslint/utils@8.49.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(prettier@3.7.4)(tailwindcss@4.1.18)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.2(jiti@2.6.1))
       '@eslint-react/eslint-plugin': 2.3.13(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -2886,12 +2886,12 @@ snapshots:
       - typescript
       - vitest
 
-  '@nelsonlaidev/prettier-config@0.1.1(prettier-plugin-packagejson@2.5.20(prettier@3.7.4))(prettier@3.7.4)':
+  '@braviadev/prettier-config@0.1.1(prettier-plugin-packagejson@2.5.20(prettier@3.7.4))(prettier@3.7.4)':
     dependencies:
       prettier: 3.7.4
       prettier-plugin-packagejson: 2.5.20(prettier@3.7.4)
 
-  '@nelsonlaidev/typescript-config@1.1.1': {}
+  '@braviadev/typescript-config@1.1.1': {}
 
   '@next/env@16.1.1': {}
 
