@@ -2,7 +2,7 @@
   "name": "links",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "Nelson Lai <me@nelsonlai.dev> (https://github.com/nelsonlaidev/)",
+  "author": "Olanrewaju Toyyib<me@bravía.com> (https://github.com/braviadev)",
   "type": "module",
   "scripts": {
     "build": "next build",
@@ -32,9 +32,9 @@
     "zod": "4.2.1"
   },
   "devDependencies": {
-    "@nelsonlaidev/eslint-config": "2.4.5",
-    "@nelsonlaidev/prettier-config": "0.1.1",
-    "@nelsonlaidev/typescript-config": "1.1.1",
+    "@braviadev/eslint-config": "2.4.5",
+    "@braviadev/prettier-config": "0.1.1",
+    "@braviadev/typescript-config": "1.1.1",
     "@tailwindcss/postcss": "4.1.18",
     "@types/node": "24.10.4",
     "@types/react": "19.2.7",
