@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'nelsonlai.dev'
+        hostname: 'bravía.com'
       }
     ]
   }
