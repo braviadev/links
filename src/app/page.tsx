@@ -19,52 +19,52 @@ const links = [
   {
     icon: <FiBook className='text-zinc-300' />,
     title: 'Blog',
-    url: 'https://nelsonlai.link/s/blog'
+    url: 'https://links.bravía.com/s/blog'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
     title: 'YouTube',
-    url: 'https://nelsonlai.link/s/youtube'
+    url: 'https://links.bravía.com/s/youtube'
   },
   {
     icon: <SiFacebook className='text-zinc-300' />,
     title: 'Facebook',
-    url: 'https://nelsonlai.link/s/facebook'
+    url: 'https://links.bravía.com/s/facebook'
   },
   {
     icon: <SiSteam className='text-zinc-300' />,
     title: 'Steam',
-    url: 'https://nelsonlai.link/s/steam'
+    url: 'https://links.bravía.com/s/steam'
   },
   {
     icon: <SiInstagram className='text-zinc-300' />,
     title: 'Instagram',
-    url: 'https://nelsonlai.link/s/instagram'
+    url: 'https://links.bravía.com/s/instagram'
   },
   {
     icon: <SiGithub className='text-zinc-300' />,
     title: 'GitHub',
-    url: 'https://nelsonlai.link/s/github'
+    url: 'https://links.bravía.com/s/github'
   },
   {
     icon: <SiDiscord className='text-zinc-300' />,
     title: 'Discord',
-    url: 'https://nelsonlai.link/s/discord'
+    url: 'https://links.bravía.com/s/discord'
   },
   {
     icon: <SiX className='text-zinc-300' />,
     title: 'X',
-    url: 'https://nelsonlai.link/s/twitter'
+    url: 'https://links.bravía.com/s/twitter'
   },
   {
     icon: <SiStackoverflow className='text-zinc-300' />,
     title: 'Stack overflow',
-    url: 'https://nelsonlai.link/s/stackoverflow'
+    url: 'https://links.bravía.com/s/stackoverflow'
   },
   {
     icon: <SiDevdotto className='text-zinc-300' />,
     title: 'Dev.to',
-    url: 'https://nelsonlai.link/s/devto'
+    url: 'https://links.bravía.com/s/devto'
   }
 ]
 
@@ -74,15 +74,15 @@ const Page = () => {
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pt-24 pb-10'>
         <Spotlight className='-top-4 left-56' />
         <Image
-          src='https://nelsonlai.dev/images/avatar.png'
+          src='https://bravía.com/images/avatar.png'
           width={90}
           height={90}
           alt='Logo'
           className='rounded-full'
           priority
         />
-        <h1 className='text-xl font-semibold'>Nelson Lai</h1>
-        <p className='text-[#a1a1a1]'>full stack engineer</p>
+        <h1 className='text-xl font-semibold'>Olanrewaju Toyyib</h1>
+        <p className='text-[#a1a1a1]'>full stack developer/engineer</p>
       </div>
       <PrimaryLinks />
       <div className='flex flex-col gap-4 py-3'>
