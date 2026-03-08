@@ -1,0 +1,53 @@
+{
+  "name": "links",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Olanrewaju Toyyib <me@bravía.com> (https://github.com/bravia.dev/)",
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "check": "pnpm lint && pnpm typecheck && pnpm format:check && pnpm knip",
+    "clean": "rm -rf .next",
+    "dev": "next dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preinstall": "npx --yes only-allow pnpm",
+    "knip": "knip",
+    "lint": "eslint --max-warnings 0 .",
+    "lint:fix": "eslint --fix --max-warnings 0 .",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "typegen": "next typegen"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "0.13.10",
+    "clsx": "2.1.1",
+    "geist": "1.5.1",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-icons": "5.5.0",
+    "tailwind-merge": "3.4.0",
+    "zod": "4.2.1"
+  },
+  "devDependencies": {
+    "@nelsonlaidev/eslint-config": "2.4.5",
+    "@nelsonlaidev/prettier-config": "0.1.1",
+    "@nelsonlaidev/typescript-config": "1.1.1",
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "24.10.4",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.2",
+    "knip": "5.78.0",
+    "postcss-load-config": "6.0.1",
+    "prettier": "3.7.4",
+    "prettier-plugin-packagejson": "2.5.20",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=24"
+  }
+}
