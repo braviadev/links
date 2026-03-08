@@ -2,13 +2,14 @@
 
 import { useEffect, useState } from 'react'
 
+import * as React from 'react'
+
 import { cn } from '@/utils/cn'
 
-type SparkleLinkProps = React.ComponentProps<'a'>
+t
+type MyParticleProps = React.SVGProps<SVGSVGElement>
 
-const SparkleLink = (props: SparkleLinkProps) => {
-  const { className, children, ...rest } = props
-
+export const MyParticle: React.FC<MyParticleProps> = (props) => {
   return (
     <div className='relative inline-block [--spark:1.8s] [--transition:0.25s]'>
       <a
