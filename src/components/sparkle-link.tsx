@@ -37,17 +37,23 @@ const SparkleLinkBackdrop = () => (
   <span className='absolute inset-(--cut) rounded-[100px] bg-sparkle bg-sparkle-radial transition-[background_var(--transition)]' />
 )
 
-type SparkleLinkParticleProps = React.SVGProps<SVGSVGElement>
 
-const SparkleLinkParticle = (props: SparkleLinkParticleProps) => {
+type MyParticleProps = React.SVGProps<SVGSVGElement>
+
+export const MyParticle: React.FC<MyParticleProps> = (props) => {
   return (
-    
-<svg
-      className='absolute top-[calc(var(--y)*1%)] left-[calc(var(--x)*1%)] -z-10 w-[calc(var(--size,0.25)*1rem)] origin-[var(--origin-x,1000%)_var(--origin-y,1000%)] animate-float-out fill-white opacity-[var(--alpha,1)] [animation-play-state:var(--play-state,paused)] even:[animation-direction:reverse]'
-      aria-label='A particle'
-      viewBox='0 0 15 15'
-      xmlns='http://www.w3.org/2000/svg'
-      fill='none'
+    <svg
+      className={cn(
+        'absolute top-[calc(var(--y)*1%)] left-[calc(var(--x)*1%)] -z-10 w-[calc(var(--size,0.25)*1rem)]',
+        'origin-[var(--origin-x,1000%)_var(--origin-y,1000%)]',
+        'animate-float-out fill-white opacity-[var(--alpha,1)]',
+        '[animation-play-state:var(--play-state,paused)] even:[animation-direction:reverse]',
+        props.className
+      )}
+      aria-label="A particle"
+      viewBox="0 0 1280 1280"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
       {...props}
     >
       {/* Your artwork begins */}
