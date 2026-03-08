@@ -22,36 +22,36 @@ const links = [
     url: 'https://bravía.com/blog'
   },
   {
+    icon: <SiInstagram className='text-zinc-300' />,
+    title: 'Instagram One',
+    url: 'https://www.instagram.com/bravia.ot'
+  },
+  {
+    icon: <SiInstagram className='text-zinc-300' />,
+    title: 'Instagram Two',
+    url: 'https://www.tiktok.com/@olanrewajutoyyiib'
+  },
+  {
     icon: <SiYoutube className='text-zinc-300' />,
-    title: 'YouTube',
+    title: 'YouTube One',
     url: 'http://www.youtube.com/@devbravia'
+  },
+  {
+    icon: <SiYoutube className='text-zinc-300' />,
+    title: 'YouTube Two',
+    url: 'https://youtube.com/@olanrewajutoyyib'
   },
   {
     icon: <SiFacebook className='text-zinc-300' />,
     title: 'Facebook',
+    url: 'https://www.facebook.com/olanrewajutoyyiib'
+  },
+  {
+    icon: <SiLinkedIn className='text-zinc-300' />,
+    title: 'LinkedIn',
     url: 'https://www.linkedin.com/in/olanrewaju-toyyib'
   },
-  {
-    icon: <SiSteam className='text-zinc-300' />,
-    title: 'Steam',
-    url: 'https://links.bravía.com/s/steam'
-  },
-  {
-    icon: <SiInstagram className='text-zinc-300' />,
-    title: 'Instagram',
-    url: 'https://www.instagram.com/brav_iaa?'
-  },
-  {
-    icon: <SiGithub className='text-zinc-300' />,
-    title: 'GitHub',
-    url: 'https://github.com/braviadev'
-  },
-  {
-    icon: <SiDiscord className='text-zinc-300' />,
-    title: 'Discord',
-    url: 'https://links.bravía.com/s/discord'
-  },
-  {
+    {
     icon: <SiX className='text-zinc-300' />,
     title: 'X',
     url: 'https://x.com/O_Toyyib'
@@ -62,9 +62,24 @@ const links = [
     url: 'https://stackoverflow.com/users/24771030/bravia'
   },
   {
+    icon: <SiSteam className='text-zinc-300' />,
+    title: 'Steam',
+    url: 'https://steamcommunity.com/profiles/76561198727811766/home'
+  },
+  {
+    icon: <SiDiscord className='text-zinc-300' />,
+    title: 'Discord',
+    url: 'https://links.bravía.com/s/discord'
+  },
+  {
     icon: <SiDevdotto className='text-zinc-300' />,
     title: 'Dev.to',
     url: 'https://dev.to/bravia'
+  },
+   {
+    icon: <SiGithub className='text-zinc-300' />,
+    title: 'GitHub',
+    url: 'https://github.com/braviadev'
   }
 ]
 
