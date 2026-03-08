@@ -23,22 +23,22 @@ const links = [
   },
   {
     icon: <SiInstagram className='text-zinc-300' />,
-    title: 'Instagram One',
+    title: 'Instagram',
     url: 'https://www.instagram.com/bravia.ot'
   },
   {
     icon: <SiInstagram className='text-zinc-300' />,
-    title: 'Instagram Two',
+    title: 'Instagram',
     url: 'https://www.tiktok.com/@olanrewajutoyyiib'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
-    title: 'YouTube One',
+    title: 'YouTube',
     url: 'http://www.youtube.com/@devbravia'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
-    title: 'YouTube Two',
+    title: 'YouTube',
     url: 'https://youtube.com/@olanrewajutoyyib'
   },
   {
