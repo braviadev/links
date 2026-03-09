@@ -26,13 +26,25 @@ const links = [
 
   {
     icon: <SiInstagram className='text-zinc-300' />,
-    title: 'Instagram',
+    title: 'Instagram (Dev)',
     url: 'https://www.instagram.com/bravia.ot'
   },
 
   {
+    icon: <SiInstagram className='text-zinc-300' />,
+    title: 'Instagram (Personal)',
+    url: 'https://www.instagram.com/olanrewajutoyyiib'
+  },
+
+  {
     icon: <SiTiktok className='text-zinc-300' />,
-    title: 'TikTok',
+    title: 'TikTok (Dev)',
+    url: 'https://vm.tiktok.com/ZS9eMoqr6PdBc-zjnbH'
+  },
+  
+  {
+    icon: <SiTiktok className='text-zinc-300' />,
+    title: 'TikTok (Personal)',
     url: 'https://www.tiktok.com/@olanrewajutoyyiib'
   },
 
