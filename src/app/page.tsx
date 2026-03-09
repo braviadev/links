@@ -93,7 +93,7 @@ const links = [
   {
     icon: <SiDiscord className='text-zinc-300' />,
     title: 'Discord',
-    url: 'https://links.bravía.com/s/discord'
+    url: 'https://discord.com/channels/@bravia'
   },
 
   {
