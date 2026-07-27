@@ -19,7 +19,7 @@ const links = [
   {
     icon: <FiBook className='text-zinc-300' />,
     title: 'Blog',
-    url: 'https://links.braviaprime.com'
+    url: 'https://braviaprime.com'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
