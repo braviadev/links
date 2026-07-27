@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   authors: {
     name: MY_NAME,
-    url: 'https://bravía.com'
+    url: 'https://braviaprime.com'
   },
   openGraph: {
     title: SITE_TITLE,
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     locale: 'en-US',
     images: [
       {
-        url: 'https://bravía.com/og-image.png',
+        url: 'https://braviaprime.com/og-image.png',
         width: 1200,
         height: 630,
         alt: SITE_DESCRIPTION,

@@ -19,52 +19,52 @@ const links = [
   {
     icon: <FiBook className='text-zinc-300' />,
     title: 'Blog',
-    url: 'https://links.bravía.com/blog'
+    url: 'https://links.braviaprime.com'
   },
   {
     icon: <SiYoutube className='text-zinc-300' />,
     title: 'YouTube',
-    url: 'http://www.youtube.com/@devbravia'
+    url: 'http://www.youtube.com/@braviaprime'
   },
   {
     icon: <SiFacebook className='text-zinc-300' />,
     title: 'Facebook',
-    url: 'https://www.linkedin.com/in/olanrewaju-toyyib'
+    url: 'https://www.facebook.com/in/toyyhiib'
   },
   {
     icon: <SiSteam className='text-zinc-300' />,
     title: 'Steam',
-    url: 'https://links.bravía.com/s/steam'
+    url: 'https://steamcommunity.com/id/braviaprime/'
   },
   {
     icon: <SiInstagram className='text-zinc-300' />,
     title: 'Instagram',
-    url: 'https://www.instagram.com/brav_iaa?'
+    url: 'https://www.instagram.com/braviaprime'
   },
   {
     icon: <SiGithub className='text-zinc-300' />,
     title: 'GitHub',
-    url: 'https://github.com/braviadev'
+    url: 'https://github.com/braviaprime'
   },
   {
     icon: <SiDiscord className='text-zinc-300' />,
     title: 'Discord',
-    url: 'https://links.bravía.com/s/discord'
+    url: 'https://discord.com/channels/@braviaprime'
   },
   {
     icon: <SiX className='text-zinc-300' />,
     title: 'X',
-    url: 'https://x.com/O_Toyyib'
+    url: 'https://x.com/Toyyhib'
   },
   {
     icon: <SiStackoverflow className='text-zinc-300' />,
     title: 'Stack overflow',
-    url: 'https://stackoverflow.com/users/24771030/bravia'
+    url: 'https://stackexchange.com/users/31961819/braviaprime'
   },
   {
     icon: <SiDevdotto className='text-zinc-300' />,
     title: 'Dev.to',
-    url: 'https://dev.to/bravia'
+    url: 'https://dev.to/braviadprime'
   }
 ]
 
@@ -74,7 +74,7 @@ const Page = () => {
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pt-24 pb-10'>
         <Spotlight className='-top-4 left-56' />
         <Image
-          src='https://bravía.com/images/avatar.png'
+          src='https://braviaprime.com/images/avatar.png'
           width={90}
           height={90}
           alt='Logo'

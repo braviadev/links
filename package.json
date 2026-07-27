@@ -2,7 +2,7 @@
   "name": "links",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "Olanrewaju Toyyib <me@bravía.com> (https://github.com/bravia.dev/)",
+  "author": "Olanrewaju Toyyib <me@braviaprime.com> (https://github.com/bravia.dev/)",
   "type": "module",
   "scripts": {
     "build": "next build",
